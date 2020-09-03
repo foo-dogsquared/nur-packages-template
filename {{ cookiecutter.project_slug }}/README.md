@@ -1,9 +1,5 @@
 # {{ cookiecutter.project_name }}
 
-## README template
-
-# nur-packages
-
 **My personal [NUR](https://github.com/nix-community/NUR) repository**
 
 {% if cookiecutter.ci == "GitHub Actions" %}
