@@ -1,0 +1,14 @@
+{
+    "project_name": "NUR Packages",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "author_full_name": "Gabriel Arazas",
+    "author_alias": "foo-dogsquared",
+    "nur_repo": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "cachix_cache": "{{ cookiecutter.author_alias }}",
+    "github_username": "{{ cookiecutter.author_alias }}",
+    "travis_ci_username": "{{ cookiecutter.author_alias }}",
+    "ci": [
+        "GitHub Actions",
+        "Travis CI"
+    ]
+}
