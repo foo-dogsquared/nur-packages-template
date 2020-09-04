@@ -19,5 +19,7 @@ nix-shell -p cookiecutter git --command "cookiecutter https://github.com/foo-dog
    * Remember to mark the broken packages as `broken = true;` in the `meta` attribute, or the build process (and consequently caching) will fail!
    * Library functions, modules and overlays go in the respective directories.
 
-3. [Add yourself to NUR.](https://github.com/nix-community/NUR#how-to-add-your-own-repository)
+3. OPTIONAL: Enable Cachix in the CI by uncommenting them in your CI config (e.g., `.github/workflows/build.yml`, `.travis.yml`).
+
+4. [Add yourself to NUR.](https://github.com/nix-community/NUR#how-to-add-your-own-repository)
 
